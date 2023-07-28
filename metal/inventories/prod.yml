@@ -2,8 +2,8 @@ metal:
   children:
     masters:
       hosts:
-        homelab0: {ansible_host: 192.168.1.110, mac: '0a:04:7a:cb:37:07', disk: blk0, network_interface: en0}
-        homelab1: {ansible_host: 192.168.1.111, mac: '1e:69:f7:10:26:3c', disk: blk0, network_interface: en0}
+        homelab0: {ansible_host: 192.168.1.110, mac: '0a:04:7a:cb:37:07', disk: sda, network_interface: en0}
+        homelab1: {ansible_host: 192.168.1.111, mac: '1e:69:f7:10:26:3c', disk: sda, network_interface: en0}
     workers:
       hosts:
-        homelab2: {ansible_host: 192.168.1.113, mac: '5e:5a:2b:06:96:ba', disk: blk0, network_interface: en0}
+        homelab2: {ansible_host: 192.168.1.113, mac: '5e:5a:2b:06:96:ba', disk: sda, network_interface: en0}
