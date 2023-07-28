@@ -1,6 +1,6 @@
-iso_url: "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-dvd-x86_64-38-1.6.iso"
-# iso_url: "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/aarch64/iso/Fedora-Server-dvd-aarch64-38-1.6.iso"
-iso_checksum: "sha256:66b52d7cb39386644cd740930b0bef0a5a2f2be569328fef6b1f9b3679fdc54d"
-# iso_checksum: "0b40485d74fc60c0a78f071396aba78fafb2f8f3b1ab4cbc3388bda82f764f9b"
-timezone: Asia/Ho_Chi_Minh
+# iso_url: "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/x86_64/iso/Fedora-Server-dvd-x86_64-38-1.6.iso"
+iso_url: "https://download.fedoraproject.org/pub/fedora/linux/releases/38/Server/aarch64/iso/Fedora-Server-dvd-aarch64-38-1.6.iso"
+# iso_checksum: "sha256:66b52d7cb39386644cd740930b0bef0a5a2f2be569328fef6b1f9b3679fdc54d"
+iso_checksum: "0b40485d74fc60c0a78f071396aba78fafb2f8f3b1ab4cbc3388bda82f764f9b"
+timezone: America/Costa_Rica
 dhcp_proxy: true
