@@ -16,4 +16,4 @@ metal:
         # homelab1: {ansible_host: 192.168.1.22, mac: 'd2:da:68:97:8d:3a', disk: vda, network_interface: en0}
     workers:
       hosts: {}
-        # homelab2: {ansible_host: 192.168.1.23, mac: 'c6:8b:92:af:a5:92', disk: vda, network_interface: en0}
+        homelab2: {ansible_host: 192.168.1.23, mac: 'c6:8b:92:af:a5:92', disk: vda, network_interface: en0}
