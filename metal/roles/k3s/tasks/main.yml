@@ -74,7 +74,7 @@
 - name: Get Kubernetes config file
   run_once: true
   ansible.builtin.slurp:
-    src: /etc/rancher/k3s/k3s.yaml
+    src: "{{ k3s_config_file }}"
   register: kubeconfig_base64
 
 - name: Write Kubernetes config file with the correct cluster address
