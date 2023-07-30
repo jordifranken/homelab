@@ -15,4 +15,5 @@ spec:
     spec:
       containers:
         - name: excalidraw
+          # image: excalidraw/excalidraw:latest
           image: thisisbenny/excalidraw:latest
