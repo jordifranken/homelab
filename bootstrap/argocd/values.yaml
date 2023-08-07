@@ -1,4 +1,8 @@
 argo-cd:
+  ## Globally shared configuration
+  global:
+    # -- Number of old deployment ReplicaSets to retain. The rest will be garbage collected.
+    revisionHistoryLimit: 1
   server:
     extraArgs:
       - --insecure
